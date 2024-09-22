@@ -1,0 +1,14 @@
+[package]
+name = "CrowdfundingPlatform"
+version = "0.1.0"
+authors = ["Paradox <paradoxstate@outlook.com>"]
+license = "Apache-2.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[addresses]
+CrowdfundingPlatform = "0xddc15b0d6d37fc8af8ee56814b90f891c9bc9d98781eb4a43a02e67b149e8d37"
+
+[dev-addresses]
+CrowdfundingPlatform = "0xddc15b0d6d37fc8af8ee56814b90f891c9bc9d98781eb4a43a02e67b149e8d37"
